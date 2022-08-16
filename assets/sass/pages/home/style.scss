@@ -1,0 +1,149 @@
+@import url(../../components/_learn-more-btn.scss);
+
+#nav-area {
+  background-color: #121619;
+
+  img {
+    width: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+      }
+
+      &:hover {
+        background-color: aquamarine;
+        color: #121619;
+      }
+    }
+  }
+}
+#head-menu {
+  background-color: #f0f0f0;
+  .col-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    .learn-more {
+      width: 200px;
+      height: 50px;
+      border-radius: 28px;
+      background-color: orangered;
+      color: #f0f0f0;
+      font-size: 18px;
+      font-weight: 700;
+
+      &:hover {
+        background-color: #282828;
+        color: orangered;
+      }
+    }
+  }
+  .col-7 {
+    img {
+      padding: 20px 100px;
+    }
+  }
+}
+
+#cards {
+  padding: 70px;
+
+  .card {
+    padding: 30px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    box-shadow: #121619;
+    img {
+      width: 100%;
+      padding: 10px;
+    }
+    .learn-more {
+      width: 150px;
+      height: 40px;
+      margin-top: 20px;
+      border-radius: 28px;
+      background-color: orangered;
+      color: #f0f0f0;
+      font-size: 18px;
+      font-weight: 700;
+
+      &:hover {
+        background-color: #282828;
+        color: orangered;
+      }
+    }
+  }
+}
+#foot {
+  background-color: #121619;
+  padding: 30px;
+  .calendar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    i {
+      color: white;
+      font-size: 40px;
+    }
+    h6,
+    span {
+      color: white;
+    }
+  }
+  .about {
+    h3,
+    span,
+    p {
+      color: white;
+    }
+  }
+
+  .stay {
+    .socials {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px;
+      gap: 10px;
+      i {
+        color: white;
+        font-size: 20px;
+      }
+    }
+    h3,
+    h6 {
+      color: white;
+    }
+    a {
+      text-decoration: none;
+      &:hover{
+        h6{
+            color: aqua;
+        }
+      }
+    }
+  }
+}
+#end{
+    text-align: center;
+    padding: 20px;
+}
